@@ -12,8 +12,8 @@
 
 # Preview
 
-![React Movies](https://user-images.githubusercontent.com/76922296/156870941-95775569-4d1d-40a1-80b5-d44cad37de81.png)
+![React Movies](https://user-images.githubusercontent.com/76922296/156888360-acf36985-82a1-4d0e-917a-4089c320040c.png)
 
-![React Movies](https://user-images.githubusercontent.com/76922296/156870951-c21df3ee-75d0-4bbf-9b61-cb31a838be51.png)
+![React Movies](https://user-images.githubusercontent.com/76922296/156888351-a8bb24f7-4b6d-4e7f-a94b-d7a0ceba6153.png)
 
-![React Movies](https://user-images.githubusercontent.com/76922296/156870957-d83ad1e5-10b8-41a5-954c-d2d50b190433.png)
+![React Movies](https://user-images.githubusercontent.com/76922296/156888380-a546161a-e4a2-4e44-980f-60220e823bf2.png)
