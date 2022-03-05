@@ -1,0 +1,29 @@
+@import "../../sass/mixin";
+@import "../../sass/variable";
+.wapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  @include mobile {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 250px));
+    justify-content: center;
+  }
+  .movie {
+    height: 300px;
+    border-radius: $radius;
+    overflow: hidden;
+    position: relative;
+    transition: $transition;
+    cursor: pointer;
+    &:hover {
+      .icon-container {
+        opacity: 1;
+      }
+    }
+  }
+}
+.no-movie {
+  font-size: 40px;
+  text-align: center;
+  color: gray;
+}

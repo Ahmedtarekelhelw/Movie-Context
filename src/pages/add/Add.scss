@@ -1,0 +1,35 @@
+@import "../../sass//variable";
+@import "../../sass/mixin";
+.search {
+  text-align: center;
+  margin-top: 50px;
+  .container {
+    input {
+      background-color: $main-color;
+      padding: 10px;
+      color: $txt-color;
+      border-radius: $radius;
+      margin-bottom: 20px;
+      width: 50%;
+      @include tablet;
+    }
+    .search-result {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      width: 50%;
+      @include tablet;
+      .load {
+        margin: 10px auto;
+        width: 30%;
+        background-color: $main-color;
+        color: $sec-color;
+        &:hover {
+          background-color: $sec-color;
+          color: $main-color;
+        }
+        @include tablet;
+      }
+    }
+  }
+}

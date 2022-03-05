@@ -1,0 +1,10 @@
+@import "../../sass/variable";
+@import "../../sass/mixin";
+.search-item {
+  @include flex(unset, unset);
+  margin-bottom: 25px;
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+  }
+}

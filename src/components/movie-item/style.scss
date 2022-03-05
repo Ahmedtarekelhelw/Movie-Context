@@ -1,0 +1,15 @@
+@import "../../sass/mixin";
+@import "../../sass/variable";
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: $radius;
+}
+
+.not-img {
+  background-color: gray;
+  border-radius: $radius;
+  width: 100%;
+  height: 100%;
+}

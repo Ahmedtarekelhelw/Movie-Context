@@ -1,0 +1,25 @@
+@import "../../sass//variable";
+@import "../../sass/mixin";
+.watched {
+  margin: 25px 0;
+  .head {
+    @include flex(center, space-between);
+    h3 {
+      text-transform: capitalize;
+      font-size: 25px;
+      color: $main-color;
+    }
+    span {
+      background-color: $sec-color;
+      border-radius: $radius + 5px;
+      padding: 5px 10px;
+      font-weight: 600;
+      font-size: 17px;
+      color: $main-color;
+      cursor: pointer;
+    }
+  }
+  .list {
+    margin-top: 20px;
+  }
+}

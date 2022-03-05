@@ -1,0 +1,43 @@
+@import "../../sass/variable";
+@import "../../sass/mixin";
+.image {
+  width: 100px;
+  height: 120px;
+  margin-right: 20px;
+  @include mobile {
+    margin-right: 0px;
+    width: 200px;
+    height: 300px;
+  }
+}
+.content {
+  @include flex(unset, space-between);
+  flex-direction: column;
+  text-align: left;
+  flex: 3;
+  .top {
+    @include mobile {
+      margin: 15px 0;
+      text-align: center;
+    }
+    h3 {
+      color: $main-color;
+    }
+    span {
+      color: gray;
+    }
+  }
+  .bottom {
+    .btns {
+      @include mobile {
+        text-align: center;
+      }
+      button {
+        margin-right: 15px;
+        &:hover {
+          background-color: #1aa762;
+        }
+      }
+    }
+  }
+}

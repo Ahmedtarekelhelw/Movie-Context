@@ -1,0 +1,24 @@
+@import "../../sass/mixin";
+@import "../../sass/variable";
+
+.icon-container {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba($color: #000, $alpha: 0.8);
+  padding: 3px 10px;
+  border-radius: $radius;
+  color: $txt-color;
+  transition: $transition;
+  opacity: 0;
+  .icon {
+    transition: $transition - 0.1s;
+    &:first-child {
+      margin-right: 10px;
+    }
+    &:hover {
+      color: $sec-color;
+    }
+  }
+}
