@@ -9,12 +9,12 @@ const Navbar = () => {
     <header>
       <div className="container">
         <div className="logo">
-          <Link to="/">WatchList</Link>
+          <Link to="/movie-context">WatchList</Link>
         </div>
         <div className="links">
           <ul>
             <li>
-              <Link to="/">WatchList</Link>
+              <Link to="/movie-context">WatchList</Link>
             </li>
             <li>
               <Link to="/watched">Watched</Link>

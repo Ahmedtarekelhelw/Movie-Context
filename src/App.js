@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<WatchList />} />
+          <Route path="movie-context" element={<WatchList />} />
           <Route path="add" element={<Add />} />
           <Route path="watched" element={<Watched />} />
         </Routes>
