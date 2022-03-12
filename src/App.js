@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Add from "./pages/add/Add";
 import WatchList from "./pages/watch-list/WatchList";
 import Watched from "./pages/watched/Watched";
@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="movie-context" element={<WatchList />} />
+          <Route path="/" element={<WatchList />} />
           <Route path="add" element={<Add />} />
           <Route path="watched" element={<Watched />} />
         </Routes>
